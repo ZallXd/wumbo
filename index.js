@@ -30,8 +30,8 @@ function saveJSON(path, data) {
 
 // === Konfigurasi Bot ===
 const channelJid = "120363417721042596@newsletter";
-const initialGroupJids = ["120363399159334380@g.us"];
-const ownerNumbers = ["6285731706147@s.whatsapp.net"];
+const initialGroupJids = ["120363399159334380@g.us","120363419497011726@g.us"];
+const ownerNumbers = ["6288989337059@s.whatsapp.net","6285731706147@s.whatsapp.net"];
 
 let lastStockMessage = null;
 const antiLinkState = loadJSON("antilink.json", {}); // <-- load dari file
